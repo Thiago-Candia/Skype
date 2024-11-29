@@ -1,5 +1,4 @@
 import React from 'react'
-import '../Styles/Styles.css'
 import { Icons } from '../Assets/Icons/Icons'
 
 const SearchChat = () => {
