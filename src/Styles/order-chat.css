@@ -1,0 +1,16 @@
+.order-chat{
+    display: flex;
+    height: 40px;
+}
+
+.order-chat span{
+    font-size: 14px;
+    color: var(--grey-text);
+    margin-left: 10px;
+}
+
+.order-chat i{
+    margin-left: 5px;
+    color: #888B8F;
+    font-size: 12px;
+}

@@ -1,0 +1,96 @@
+/* NAVBAR CHAT */
+.navbar-user-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: var(--black-bgc);
+    border-bottom: 0.5px solid var(--grey-bgc);
+    color: #fff;
+}
+
+/* IMAGEN USUARIO */
+
+.user-img-box{
+    width: 40px;
+}
+
+.user-img-box img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* NOMBRE Y ESTADO */
+
+.navbar-user-item{
+    display: flex;
+    margin-left: 20px;
+}
+
+.navbar-user-name{
+    margin-left: 10px ;
+}
+
+.navbar-user-name button{
+    color: var(--msg-text);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-name_icon i{
+    margin-left: 5px;
+    font-size: 16px;
+    
+}
+
+.navbar-name_icon span{
+    font-size: 18px;
+}
+
+
+/* BOTONES DE NAVBAR, LLAMADA, VIDEOLLAMADA, BUSCAR EN EL CHAT, ETC.  */
+
+.navbar-btn-action{
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+    height: 60%;
+}
+
+.navbar-btn-action i{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.navbar-btn-action button{
+    color: var(--grey-border-icon);
+}
+
+.navbar-btn-action .btn-action{
+    background-color: var(--skyblue-bgc);
+    border-radius: 50%;
+}
+
+.btn-action i{
+    color: #000;
+}
+
+.btn-action:hover{
+    background-color: var(--skyblue-icon);
+}
+
+/* MOBILE CONFIG */
+
+.navbar-btn-back-mobile{
+    display: none;
+}
+.navbar-btn-back-mobile i{
+    color: #dbd5d5;
+}
+
+.btn-options-mobile i{
+    font-size: 18px;
+}
+

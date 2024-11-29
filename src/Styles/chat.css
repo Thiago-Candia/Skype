@@ -1,0 +1,43 @@
+
+/* CONTAINER MAIN */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--black-bgc);
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container aside{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 350px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.messages-body{
+    height: 100%;
+}
+
+.messages-body {
+    height: 100%;
+    background-color: var(--black-bgc);
+    overflow-y: scroll;
+}
+
+.sidebar-mobile{
+    display: none;
+}
+
+
+
+
+

@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-decoration: none;
+}
+
+
+:root{
+    --black-bgc: #010101;
+    --grey-bgc: #292929;
+    --grey-bgc-icon: #2B333B;
+    --grey-text-btn: #393A41;
+    --grey-btn: #2B2C33;
+    --grey-text-home: #8A8D91;
+    --grey-text: #AFAFAF;
+    --msg-text: #F1F1F1;
+    --grey-screen-login: #F1F1F4;
+    --grey-border-icon: #CCCCCC;
+    --blue-bgc: #0E3B82;
+    --blue-login: #0067B8;
+    --blue-login-focus: #005DA6;
+    --blue-hover-select-user: #081E40;
+    --skyblue-bgc: #05ABE8;
+    --skyblue-icon: #4AD8F7;
+}
+
+
+.btn-config{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.text{
+    color: #F1F1F1;
+}
+
+
+
+
+

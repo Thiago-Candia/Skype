@@ -1,0 +1,84 @@
+@media screen and (max-width: 768px) {
+
+    /* LOGIN SCREEN*/
+    .scren-login{
+        width: 100%;
+    }
+
+    /* CHAT SCREN */
+    .sidebar-desktop {
+        display: none;
+    }
+    .container aside{
+        width: 100%;
+    }
+    .sidebar-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .message-list{
+        width: 100%;
+    }
+    .chat-message{
+        margin-top: 14px;
+    }
+
+    /* NAVBAR USER MOBILE */
+    .btn-config-mobile{
+        display: none;
+    }
+    .navbar-user-item{
+        flex: auto;
+    }
+    .navbar-btn-back-mobile{
+        display: flex;
+        margin-left: 20px;
+    }
+    .navbar-btn-back-mobile i{
+        font-size: 22px;
+    }
+    .navbar-user-name i{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    /* Screen login */
+    .login {
+        width: 300px; 
+    }
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-box-element {
+        margin: 30px 20px;
+    }
+    .input-login-box input {
+        width: 240px;
+    }
+    .btn-login-options{
+        width: 240px;
+    }
+    .login-btn-box {
+        margin-top: 25px;
+        margin-left: 0px;
+    } 
+}
+
+
+@media screen and (max-width: 1000px) {
+    .home-cards{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .btn-share-profile{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,29 @@
+.select-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 60px;
+    background-color: var(--black-bgc);
+    padding: 12px;
+}
+
+
+.select-search-box{
+    margin-top: 10px ;
+}
+
+.btn-selectSearch{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.select-search-box span{
+    font-size: 10px;
+    color: var(--grey-text);
+}
+
+.btn-selectSearch i{
+    font-size: 20px;
+    color: var(--grey-text);
+}

@@ -1,0 +1,66 @@
+.chat-message {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+/* INFORMACION EMISOR Y HORA */
+.message-info {
+    position: absolute;
+    bottom: 100%;
+    font-size: 12px;
+    color: var(--grey-text);
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.right .message-info {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+/* IMAGEN USER */
+.box-img {
+    width: 40px;
+    height: 40px;
+    margin-right: -15px; 
+}
+.box-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/* Contenedor del mensaje con efecto de "salir" de la imagen */
+.emisor {
+    padding: 8px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    color: var(--msg-text);
+    position: relative;
+}
+
+/* MSG USER */
+.from-user {
+    background-color: var(--grey-bgc);
+    border-radius: 10px 10px 10px 0;
+    padding-left: 10px;
+}
+
+/* MSG 'TU' */
+.from-me {
+    background-color: var(--blue-bgc);
+    border-radius: 10px 10px 0px 10px;
+}
+
+.left {
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.right {
+    align-self: flex-end;
+}
+

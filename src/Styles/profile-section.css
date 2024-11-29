@@ -1,0 +1,107 @@
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: var(--black-bgc);
+    color: aliceblue;
+    padding: 6px;
+}
+
+/* MI FOTO DE PERFIL */
+
+.profile-box-img{
+    width: 40px;
+
+}
+.profile-box-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+/* DIV NOMBRE Y SALDO */
+.profile-information{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.profile-name_credit {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* SALDO DE USUARIO */
+.profile-credit{
+    position: relative;
+    bottom: 3px;
+    margin-left: 10px;
+}
+.profile-credit span{
+    font-size: 10px;
+}
+
+/* NOMBRE DE USUARIO */
+.profile-name span{
+    font-size: 14px;
+}
+
+/* ESTABLECER ESTADO */
+.profile-status{
+    top: 25px;
+    left: 60px;
+}
+
+.profile-status span{
+    font-size: 10px;
+}
+
+/* BOTON OPCIONES */
+
+.profile-options{
+    position: absolute;
+    right: 5px;
+    top: 20px;
+}
+
+.profile-options i{
+    font-size: 16px ;
+}
+
+
+/* Menu desplegable de usuario */
+
+.profile-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    z-index: 10;
+}
+
+.profile-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-dropdown ul li {
+    margin-bottom: 10px;
+}
+
+.profile-dropdown ul li button {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-dropdown ul li button:hover {
+    color: #007bff;
+}

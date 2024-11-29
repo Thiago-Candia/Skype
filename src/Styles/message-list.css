@@ -1,0 +1,12 @@
+/* MESSAGE LIST */
+
+.message-list{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    padding: 5px;
+    padding-top: 30px;
+    word-wrap: break-word;
+}

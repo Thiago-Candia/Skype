@@ -1,0 +1,184 @@
+.screen-login{
+    display: flex;
+    height: 100vh;
+    background-color: var(--grey-screen-login);
+}
+
+/* LOGIN WINDOW - EMAIL */
+
+.login-box{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.img-skype-box{
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px; 
+    height: auto; 
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.325) ;
+    margin: 10px;
+}
+
+.login-box-element{
+    margin: 50px 40px;
+}
+
+.login-text{
+    margin-top: 10px ;
+    font-size: 14px;
+}
+
+.skype-text{
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+
+/* INPUT LOGIN GMAIL */
+
+.input-login-box{
+    margin-top: 10px;
+}
+
+.input-login-box input{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #666666 ;
+}
+
+.input-login-box input:hover{
+    border-bottom: 1px solid black;
+}
+
+.input-login-box input:focus{
+    border: none;
+}
+
+/* Singup / Crear cuenta */
+
+.singup-text{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.create-account{
+    color: var(--blue-login);
+}
+
+.create-account:hover{
+    text-decoration: underline;
+    color: var(--grey-text);
+}
+
+/* BTN CONTINUAR Y LOGIN */
+
+.btn-login{
+    background-color: var(--blue-login);
+    color: #fff;
+}
+
+.btn-login:hover{
+    background-color: var(--blue-login);
+}
+
+.btn-login:focus{
+    transition: 0.1s ease-in;
+    border: 0.5px solid black ;
+    background-color: var(--blue-login-focus);
+}
+
+.login-btn-box{
+    margin-top: 25px;
+    margin-left: 250px;
+}
+
+.login-btn-box button{
+    padding: 8px 20px;
+}
+
+/* OPCIONES DE INICIO DE SESION */
+
+.login-options{
+    margin: auto;
+    padding: 10px;
+}
+
+.btn-login-options{
+    padding: 12px;
+    width: 420px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.325) ;
+}
+
+.btn-login-options i{
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+
+/* SECCION DE CONTRASEÑA */
+
+.login-password{
+    height: 360px;
+}
+
+/* CONTRASEÑA */
+
+.password-options-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 14px ;
+    color: var(--blue-login);
+}
+
+.password-option span{
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    color: var(--blue-login);
+}
+
+/* BACK TO MAIL SECTION */
+
+.back-mail{
+    margin-top: 10px ;
+}
+
+.back-mail button{
+    color: #878787;
+}
+
+.back-mail button:hover{
+    border-radius: 50%;
+    background-color: #E5E5E5;
+}
+
+.back-mail span{
+    margin-left: 5px;
+    font-weight: 200;
+    font-size: 14px;
+    color: #0A0A0A;
+}
+
+.type-password{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+

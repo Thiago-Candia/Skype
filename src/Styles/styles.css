@@ -1,0 +1,48 @@
+/* NORMALIZE */
+
+@import url('normalize.css');
+
+
+/* COMPONENTS STYLES  */
+
+@import url('navbar-user.css');
+
+@import url('message-list.css');
+
+@import url('message-user.css');
+
+@import url('new-message.css');
+
+@import url('profile-section.css');
+
+@import url('search-chat.css');
+
+@import url('select-search');
+
+@import url('add-chat.css');
+
+@import url('chat-list.css');
+
+@import url('order-chat.css');
+
+@import url('home-section.css');
+
+
+/* SCREEN STYLES */
+
+@import url('chat.css');
+
+@import url('login.css');
+
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/* ICONS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+
+/* RESPONSIVE DESING */
+
+@import url('responsive.css');
